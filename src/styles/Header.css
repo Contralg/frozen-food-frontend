@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+.css-header-001 {
+    @apply flex flex-col gap-2 p-3 bg-gradient-to-r from-green-700 to-blue-950 text-white rounded-t-xl
+}
+
+.css-header-002 {
+    @apply h-10
+    md:h-16
+}
+
+.css-header-003 {
+    @apply font-bold text-3xl
+    md:text-5xl
+}
+
+.css-header-004 {
+    @apply flex flex-row items-center gap-4
+}
+
+.css-header-005 {
+    @apply font-medium text-left
+    md:text-2xl
+}

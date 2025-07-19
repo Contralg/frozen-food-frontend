@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+.css-categorybutton-001-false {
+    @apply flex flex-row bg-gray-300 gap-2 py-1 px-5 rounded-full items-center cursor-pointer
+}
+
+.css-categorybutton-001-true {
+    @apply flex flex-row bg-gradient-to-r from-green-700 to-blue-700 gap-2 py-1 px-5 rounded-full items-center cursor-pointer
+}
+
+.css-categorybutton-002 {
+    @apply h-6
+}
+
+.css-categorybutton-003-false {
+    @apply text-sm font-semibold
+}
+
+.css-categorybutton-003-true {
+    @apply text-sm font-bold text-white
+}

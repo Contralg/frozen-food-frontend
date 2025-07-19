@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+.css-cardtext-001 {
+    @apply flex flex-col w-full bg-gradient-to-br from-green-400 to-blue-400 rounded-2xl text-white text-center py-3 justify-center gap-4
+}
+
+.css-cardtext-002 {
+    @apply text-3xl font-bold
+    md:text-5xl
+    lg:text-5xl
+}
+
+.css-cardtext-003 {
+    @apply text-xl font-semibold
+    md:text-xl
+    lg:text-xl
+}

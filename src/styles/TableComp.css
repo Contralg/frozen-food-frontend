@@ -1,0 +1,40 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+.css-tablecomp-001 {
+    @apply text-base w-full text-nowrap
+}
+
+.css-tablecomp-002 {
+    @apply px-5 text-center py-1
+}
+
+.css-tablecomp-003 {
+    @apply flex flex-row justify-center gap-3
+}
+
+.css-tablecomp-004 {
+    @apply h-8 cursor-pointer scale-150
+    md:scale-100
+    lg:scale-100
+}
+
+.css-tablecomp-005-true {
+    @apply fixed top-0 left-0 z-40 w-full h-dvh
+    md:top-0
+    lg:top-0
+}
+
+.css-tablecomp-005-false {
+    @apply hidden
+}
+
+.css-tablecomp-006-true {
+    @apply fixed top-0 left-0 z-40 w-full h-dvh overflow-auto
+    md:top-0
+    lg:top-0
+}
+
+.css-tablecomp-006-false {
+    @apply hidden
+}

@@ -1,0 +1,88 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+.css-inventory-001 {
+    @apply flex flex-col
+}
+
+.css-inventory-002 {
+    @apply flex flex-col w-full
+}
+
+.css-inventory-003 {
+    @apply flex flex-wrap mt-6 gap-x-6 gap-y-2 justify-center
+}
+
+.css-inventory-004 {
+    @apply flex flex-row w-full justify-between mt-4 gap-2
+}
+
+.css-inventory-005 {
+    @apply mt-4 flex flex-col gap-4 p-2 bg-gray-100 rounded-xl shadow-md inset-shadow-2xs
+}
+
+.css-inventory-006 {
+    @apply flex flex-row gap-2 justify-between font-bold
+}
+
+.css-inventory-007 {
+    @apply flex flex-row text-xs items-end gap-1 px-4 py-2 bg-blue-500 text-white rounded-xl inset-shadow-2xs shadow-md cursor-pointer
+}
+
+.css-input-001-close {
+    @apply hidden
+}
+
+.css-input-001-open {
+    @apply fixed flex flex-col top-0 left-0 z-30 bg-black w-dvw h-dvh opacity-35 items-center align-middle
+}
+
+.css-input-002-close {
+    @apply hidden
+}
+
+.css-input-002-open {
+    @apply fixed top-0 left-0 z-40 flex flex-col w-dvw h-dvh items-center justify-center
+}
+
+.css-input-003-close {
+    @apply hidden
+}
+
+.css-input-003-open {
+    @apply fixed top-0 left-0 z-40 flex flex-col w-dvw h-dvh items-center justify-center
+}
+
+.css-input-003 {
+    @apply w-[90%] p-4 bg-white rounded-2xl
+}
+
+.css-input-009 {
+    @apply bg-red-50 px-2 py-1 rounded-md inset-shadow-2xs shadow-md 
+}
+
+.css-input-011 {
+    @apply flex flex-row justify-between w-full p-2 items-center
+}
+
+.css-input-012 {
+    @apply font-bold text-xl
+}
+
+.css-inventory-008 {
+    @apply w-full overflow-auto mt-4 bg-gray-100 p-3 rounded-xl shadow-md inset-shadow-2xs
+    md:h-[520px]
+    lg:h-[520px]
+}
+
+.css-inventory-009 {
+    @apply flex flex-row gap-3
+}
+
+.css-inventory-010 {
+    @apply flex flex-row gap-4
+}
+
+.css-inventory-011 {
+    @apply flex flex-row text-xs items-end gap-1 px-4 py-2 bg-red-500 text-white rounded-xl inset-shadow-2xs shadow-md cursor-pointer
+}

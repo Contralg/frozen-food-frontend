@@ -1,0 +1,172 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+.css-shoppingcart-001 {
+    @apply flex flex-col border-l-1 border-r-1 border-gray-300 w-full
+    md:h-full
+    lg:h-full
+}
+
+.css-shoppingcart-002 {
+    @apply flex flex-col gap-1 bg-gradient-to-r from-green-800 to-blue-950 text-white py-4 items-center
+}
+
+.css-shoppingcart-003 {
+    @apply flex flex-row gap-2 justify-center items-center
+}
+
+.css-shoppingcart-006 {
+    @apply h-14
+}
+
+.css-shoppingcart-007 {
+    @apply text-2xl font-bold mt-4
+    md:text-xl
+    lg:text-3xl
+}
+
+.css-shoppingcart-004 {
+    @apply text-base
+}
+
+.css-shoppingcart-005-false {
+    @apply flex flex-col items-center align-middle justify-center gap-1.5 text-gray-500 h-96 bg-white overflow-auto
+    md:h-[455px]
+    lg:h-[415px]
+}
+
+.css-shoppingcart-005-true {
+    @apply flex flex-col items-center align-middle pt-2 gap-1.5 text-gray-500 h-96 bg-white overflow-auto
+    md:h-[455px]
+    lg:h-[415px]
+}
+
+.css-shoppingcart-008-false {
+    @apply h-20 opacity-65
+}
+
+.css-shoppingcart-008-true {
+    @apply hidden
+}
+
+.css-shoppingcart-009-false {
+    @apply text-xl font-semibold
+}
+
+.css-shoppingcart-009-true {
+    @apply hidden
+}
+
+.css-shoppingcart-010-false {
+    @apply text-sm
+}
+
+.css-shoppingcart-010-true {
+    @apply hidden
+}
+
+.css-shoppingcart-011 {
+    @apply flex flex-col gap-4 p-6 bg-gray-200 text-base border-t-1 border-gray-300 font-bold justify-center h-full
+    md:text-base
+    lg:text-2xl
+}
+
+.css-shoppingcart-012 {
+    @apply flex flex-row justify-between gap-6
+    md:px-5
+    lg:px-10
+}
+
+.css-shoppingcart-013 {
+    @apply flex flex-col
+}
+
+.css-shoppingcart-014 {
+    @apply flex flex-row text-base justify-between gap-2 mt-2
+}
+
+.css-shoppingcart-015 {
+    @apply w-full px-2 py-1 bg-blue-700 text-white rounded-xl cursor-pointer transition-all ease-in-out delay-75 duration-150 hover:scale-110
+}
+
+.css-shoppingcart-016 {
+    @apply w-full px-2 py-1 bg-blue-700 text-white rounded-xl opacity-70 cursor-pointer transition-all ease-in-out delay-75 duration-150 hover:scale-110
+}
+
+.css-shoppingcart-017 {
+    @apply flex flex-row border-1 border-gray-300 rounded-xl h-[50%]
+}
+
+.css-shoppingcart-018 {
+    @apply bg-gray-300 rounded-l-xl px-2
+}
+
+.css-shoppingcart-019 {
+    @apply text-sm text-right w-full px-2
+    md:text-sm
+    lg:text-base
+}
+
+.css-shoppingcart-020 {
+    @apply flex flex-row justify-between gap-5
+    md:px-5
+    lg:px-10 
+}
+
+.css-shoppingcart-021 {
+    @apply flex w-full text-white p-2 rounded-full bg-gradient-to-r from-green-700 to-blue-700 justify-center cursor-pointer
+    md:text-base
+    lg:text-xl
+}
+
+.css-shoppingcart-022 {
+    @apply flex w-[40%] text-white p-2 rounded-full bg-red-600 justify-center cursor-pointer
+    md:text-base
+    lg:text-xl
+}
+
+.css-shoppingcart-023 {
+    @apply text-left
+}
+
+.css-shoppingcart-024-true {
+    @apply w-full
+}
+
+.css-shoppingcart-024-false {
+    @apply hidden
+}
+
+.css-shoppingcart-025 {
+    @apply text-base text-white font-semibold bg-green-700
+    md:text-xl
+    lg:text-xl
+}
+
+.css-shoppingcart-026-odd {
+    @apply text-base text-black bg-green-100
+    md:text-xl
+    lg:text-xl
+}
+
+.css-shoppingcart-026-even {
+    @apply text-base text-black 
+    md:text-xl
+    lg:text-xl
+}
+
+.css-shoppingcart-027 {
+    @apply min-w-5 max-w-20 text-black font-bold inset-shadow-2xs bg-gray-100 align-middle text-center 
+    md:min-w-10
+    lg:min-w-10
+}
+
+.css-shoppingcart-028-true {
+    @apply fixed top-10 left-0 px-0.5 z-40 w-full h-dvh
+    md:top-0
+    lg:top-0
+}
+
+.css-shoppingcart-028-false {
+    @apply hidden
+}

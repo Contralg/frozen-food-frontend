@@ -1,0 +1,66 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+.css-pos-001 {
+    @apply flex flex-wrap mt-4 gap-x-6 gap-y-2 justify-center
+}
+
+.css-pos-002 {
+    @apply mt-4
+}
+
+.css-pos-003 {
+    @apply flex flex-row flex-wrap gap-2 mt-2 justify-center
+}
+
+.css-pos-004 {
+    @apply flex flex-row flex-wrap border-t-1 border-gray-300 mt-4 p-4 gap-6 justify-between overflow-y-auto h-[45%]
+    md:h-[780px]
+    lg:h-[780px] 
+}
+
+.css-pos-005 {
+    @apply flex flex-col justify-between
+    md:flex-row
+    lg:flex-row
+}
+
+.css-pos-006 {
+    @apply flex flex-col w-full
+}
+
+.css-pos-007 {
+    @apply relative
+}
+
+.css-pos-008-B {
+    @apply fixed bg-sky-50 top-0 left-0 py-2 mx-2 z-10 border-b-1 border-gray-300
+}
+
+.css-pos-009 {
+    @apply w-full h-full
+    md:w-[60%]
+    lg:w-[60%]
+}
+
+.css-pos-010-close {
+    @apply fixed bottom-0 left-0 w-full h-[300px]  z-20 translate-y-38 text-center transition-all ease-in-out delay-75 duration-300
+    md:flex md:translate-0 md:relative md:h-full md:w-[70%]
+    lg:flex lg:translate-0 lg:relative lg:h-full lg:min-w-[40%] lg:max-w-[60%]
+}
+
+.css-pos-010-open {
+    @apply fixed bottom-0 left-0 w-full h-[300px]  z-20 -translate-y-124 text-center transition-all ease-in-out delay-75 duration-300
+}
+
+.css-pos-011-close {
+    @apply  text-2xl p-2 rounded-full bg-green-700 text-white translate-y-5 transition-all ease-in-out delay-75 duration-300
+    md:hidden
+    lg:hidden
+}
+
+.css-pos-011-open {
+    @apply  text-2xl p-2 rounded-full bg-green-700 text-white translate-y-5 rotate-180 transition-all ease-in-out delay-75 duration-300
+    md:hidden
+    lg:hidden
+}

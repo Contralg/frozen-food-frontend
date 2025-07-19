@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+.css-chartsales-001 {
+    @apply flex flex-col bg-gray-100 rounded-2xl inset-shadow-2xs shadow-md p-2
+}
+
+.css-chartsales-002 {
+    @apply font-bold text-xl
+}
+
+.css-chartsales-003 {
+    @apply flex h-[400px]
+}

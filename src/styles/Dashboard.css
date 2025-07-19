@@ -1,0 +1,40 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+.css-dashboard-006 {
+    @apply flex flex-wrap mt-6 gap-x-6 gap-y-2 justify-center
+}
+
+.css-dashboard-007 {
+    @apply flex flex-col gap-3 mt-6
+    md:flex-row md:justify-between
+}
+
+.css-dashboard-008 {
+    @apply flex flex-col bg-white  shadow-md inset-shadow-sm p-5 rounded-2xl gap-3 w-full
+}
+
+.css-dashboard-009 {
+    @apply text-xl font-bold text-green-800
+}
+
+.css-dashboard-010 {
+    @apply flex flex-col gap-4 mt-4 
+    md:flex-row md:justify-between
+}
+
+.css-dashboard-011 {
+    @apply flex flex-col gap-2 w-full
+    md:w-[50%]
+    lg:w-[50%]
+}
+
+.css-dashboard-012 {
+    @apply flex flex-row gap-2
+}
+
+.css-dashboard-013 {
+    @apply flex flex-col w-full gap-2
+    md:flex-row md:w-[50%]
+    lg:flex-row lg:w-[50%]
+}

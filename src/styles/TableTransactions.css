@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+.css-tabletrans-001 {
+    @apply font-bold text-center bg-green-400 text-sm
+    md:text-xl
+    lg:text-xl 
+}
+
+.css-tabletrans-002-even {
+    @apply text-sm text-center
+    md:text-base
+    lg:text-base
+}
+
+.css-tabletrans-002-odd {
+    @apply text-sm text-center bg-green-100
+    md:text-base
+    lg:text-base
+}
+
+.css-tabletrans-003 {
+    @apply py-2
+}

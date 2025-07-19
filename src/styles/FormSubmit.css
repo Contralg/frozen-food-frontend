@@ -1,0 +1,85 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+.css-input-001-close {
+    @apply hidden
+}
+
+.css-input-001-open {
+    @apply fixed flex flex-col top-0 left-0 z-30 bg-black w-dvw h-dvh opacity-35 items-center align-middle
+}
+
+.css-input-002-close {
+    @apply hidden
+}
+
+.css-input-002-open {
+    @apply fixed top-0 left-0 z-40 flex flex-col w-dvw h-dvh items-center justify-center
+}
+
+.css-input-003 {
+    @apply w-[90%] p-4 bg-white rounded-2xl
+}
+
+.css-input-004 {
+    @apply flex flex-col w-full p-2 gap-2 font-semibold
+}
+
+.css-input-005 {
+    @apply w-full p-2 rounded-xl bg-gradient-to-br from-green-300 to-blue-200
+}
+
+.css-input-005-true {
+    @apply w-full p-2 rounded-xl bg-gradient-to-br from-green-300 to-blue-200
+}
+
+.css-input-005-false {
+    @apply hidden
+}
+
+.css-input-006 {
+    @apply w-full bg-gradient-to-br from-green-600 to-blue-600 text-white text-2xl font-bold p-1 rounded-2xl
+}
+
+.css-input-007-false {
+    @apply w-full bg-gradient-to-br from-red-600 to-red-400 text-white text-2xl font-bold p-1 rounded-2xl
+}
+
+.css-input-007-true {
+    @apply hidden
+}
+
+.css-input-008 {
+    @apply flex flex-row gap-2 justify-between
+}
+
+.css-input-009-close {
+    @apply hidden
+}
+.css-input-009-open {
+    @apply grid grid-cols-4 gap-4 max-h-72 overflow-auto
+}
+
+.css-input-010 {
+    @apply h-20  p-2 rounded-xl inset-shadow-2xs shadow-md
+}
+
+.css-input-013-true {
+    @apply flex justify-between items-center w-full p-2 rounded-xl bg-gradient-to-br from-green-300 to-blue-200
+}
+
+.css-input-013-false {
+    @apply hidden
+}
+
+.css-input-014 {
+    @apply truncate
+}
+
+.css-input-015-true {
+    
+}
+
+.css-input-015-false {
+    @apply hidden
+}

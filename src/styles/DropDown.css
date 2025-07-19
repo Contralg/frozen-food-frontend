@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+.css-dropdown-001 {
+    @apply flex flex-col 
+}
+
+.css-dropdown-002 {
+    @apply flex flex-row text-xs items-end gap-1 px-4 py-2 bg-gray-100 rounded-xl inset-shadow-2xs shadow-md z-10
+}
+
+.css-dropdown-003-close {
+    @apply fixed bg-gray-100 text-sm px-2 py-1 translate-y-0 rounded-xl inset-shadow-2xs shadow-md w-[15%] transition-all ease-in-out delay-100 duration-150 opacity-0 z-0
+}
+
+.css-dropdown-003-open {
+    @apply fixed bg-gray-100 text-sm px-2 py-1 translate-y-9 rounded-xl inset-shadow-2xs shadow-md w-[15%] transition-all ease-in-out delay-100 duration-150 opacity-100 z-20
+}
+
+.css-dropdown-004 {
+    @apply flex my-1  w-full px-1 hover:bg-gradient-to-r from-green-300 to-blue-300
+}

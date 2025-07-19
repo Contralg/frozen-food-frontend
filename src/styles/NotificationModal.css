@@ -1,0 +1,54 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+.css-notificationmodal-001 {
+    @apply relative flex w-full h-full justify-center items-center
+}
+
+.css-notificationmodal-002 {
+    @apply absolute align-middle bg-gray-600 w-full h-full opacity-65
+}
+
+.css-notificationmodal-003 {
+    @apply absolute bg-white z-10 w-[80%] h-[45%] -translate-y-25 rounded-2xl flex flex-col
+}
+
+.css-notificationmodal-004 {
+    @apply flex flex-col justify-center py-10 px-4
+}
+
+.css-notificationmodal-005 {
+    @apply h-30
+}
+
+.css-notificationmodal-006 {
+    @apply text-2xl font-bold mt-10
+}
+
+.css-notificationmodal-007 {
+    @apply text-base mt-4
+}
+
+.css-notificationmodal-008-true {
+    @apply mt-4 w-full bg-green-600 text-white text-xl py-1 rounded-full font-semibold cursor-pointer
+}
+
+.css-notificationmodal-008-false {
+    @apply mt-4 w-full bg-red-600 text-white text-xl py-1 rounded-full font-semibold cursor-pointer
+}
+
+.css-notificationmodal-009-true {
+    @apply min-w-full min-h-1 bg-green-600 rounded-full mt-4
+}
+
+.css-notificationmodal-009-false {
+    @apply min-w-full min-h-1 bg-red-600 rounded-full mt-4
+}
+
+.css-notificationmodal-010-true {
+    @apply text-xs mt-2
+}
+
+.css-notificationmodal-010-false {
+    @apply hidden
+}

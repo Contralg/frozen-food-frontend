@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+.css-searchbar-001 {
+    @apply flex flex-row border-1 border-green-600 p-2 rounded-full gap-2 mx-3
+}
+
+.css-searchbar-002 {
+    @apply h-7 
+}
+
+.css-searchbar-003 {
+    @apply w-full px-1 focus:outline-0
+}

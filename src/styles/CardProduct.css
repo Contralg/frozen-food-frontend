@@ -1,0 +1,32 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+.css-cardproduct-001-false {
+    @apply flex flex-col bg-slate-100 gap-1 p-4 shadow-md rounded-3xl cursor-pointer inset-shadow-sm transition-all ease-in-out delay-75 duration-300 hover:-translate-y-2 hover:bg-gradient-to-br from-green-100 to-blue-100 w-40
+    md:w-56 md:p-8
+    lg:w-56 lg:p-8
+}
+
+.css-cardproduct-001-true {
+    @apply opacity-0 
+}
+
+.css-cardproduct-002 {
+    @apply h-14
+}
+
+.css-cardproduct-003 {
+    @apply text-green-600 font-bold text-base truncate
+    md:text-xl
+    lg:text-xl
+}
+
+.css-cardproduct-004 {
+    @apply text-blue-800 font-bold text-base
+    md:text-xl
+    lg:text-xl
+}
+
+.css-cardproduct-005 {
+    @apply text-sm
+}

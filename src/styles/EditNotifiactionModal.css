@@ -1,0 +1,68 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+.css-editnotif-001 {
+    @apply relative flex w-[full] h-full justify-center items-center
+}
+
+.css-editnotif-002 {
+    @apply absolute align-middle bg-gray-600 w-full h-full opacity-65
+}
+
+.css-editnotif-003 {
+    @apply absolute bg-white z-10 w-[80%] h-[55%]  rounded-2xl flex flex-col
+    md:w-[45%] md:h-[45%]
+    lg:w-[30%] lg:h-[45%]
+}
+
+.css-editnotif-004 {
+    @apply flex flex-col justify-center py-10 px-4
+}
+
+.css-editnotif-005 {
+    @apply h-30
+}
+
+.css-editnotif-006 {
+    @apply text-2xl font-bold mt-10 text-center
+}
+
+.css-editnotif-007 {
+    @apply text-base mt-4
+}
+
+.css-editnotif-008 {
+    @apply text-base w-full text-wrap
+}
+
+.css-editnotif-009 {
+    @apply px-1 text-center py-1 font-normal justify-items-center
+}
+
+.css-editnotif-010 {
+    @apply h-10 
+}
+
+.css-editnotif-011-true {
+    @apply mt-4 w-full bg-green-600 text-white text-xl py-1 rounded-full font-semibold cursor-pointer
+}
+
+.css-notificationmodal-008-false {
+    @apply mt-4 w-full bg-red-600 text-white text-xl py-1 rounded-full font-semibold cursor-pointer
+}
+
+.css-editnotif-012-true {
+    @apply min-w-full min-h-1 bg-green-600 rounded-full mt-4
+}
+
+.css-notificationmodal-009-false {
+    @apply min-w-full min-h-1 bg-red-600 rounded-full mt-4
+}
+
+.css-editnotif-013 {
+    @apply text-xs mt-2 text-center
+}
+
+.css-notificationmodal-010-false {
+    @apply hidden
+}

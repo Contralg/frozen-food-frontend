@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+.css-pagesbutton-001 {
+    @apply flex flex-row bg-gradient-to-r from-green-400 to-blue-500 text-white py-2 px-6 rounded-xl cursor-pointer items-center gap-3 transition delay-50 duration-300 ease-in-out hover:-translate-y-2
+}
+
+.css-pagesbutton-002 {
+    @apply w-8
+}
+
+.css-pagesbutton-003 {
+    @apply font-bold text-base
+}

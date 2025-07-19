@@ -1,0 +1,96 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+.css-report-001 {
+    @apply flex flex-wrap mt-6 gap-x-6 gap-y-2 justify-center
+}
+
+.css-report-002 {
+    @apply flex flex-row mt-4 justify-between p-4 bg-gray-100 rounded-2xl inset-shadow-2xs shadow-md
+}
+
+.css-report-003 {
+    @apply flex flex-col mt-4 gap-4
+    md:flex-row md:h-[100px]
+    lg:flex-row lg:h-[100px]
+}
+
+.css-report-004 {
+    @apply flex flex-row gap-4
+}
+
+.css-report-005 {
+    @apply text-2xl font-bold text-emerald-950
+}
+
+.css-report-006 {
+    @apply px-1 border-1 rounded-xl text-center
+}
+
+.css-report-007 {
+    @apply flex flex-col p-4 overflow-auto
+}
+
+.css-report-008 {
+    @apply flex flex-col mt-6 gap-4 justify-between
+    md:flex-row
+    lg:flex-row
+}
+
+.css-report-009 {
+    @apply flex flex-col bg-gray-100 rounded-2xl inset-shadow-2xs shadow-md p-2 
+}
+
+.css-report-010 {
+    @apply font-bold text-xl mb-4
+}
+
+.css-report-011 {
+    @apply flex h-[400px]
+}
+
+.css-report-012 {
+    @apply flex flex-row gap-4 
+}
+
+.css-report-013 {
+    @apply flex flex-col gap-4
+}
+
+.css-report-014 {
+    @apply flex h-full w-full align-middle overflow-auto
+}
+
+.css-report-015 {
+    @apply mt-4
+}
+
+.css-report-016 {
+    @apply flex flex-row h-full w-full gap-4  items-center
+}
+
+.css-report-017 {
+    @apply flex flex-col h-[180px] w-full items-start justify-center text-sm
+}
+
+.css-report-018 {
+    @apply flex flex-row items-center gap-2
+}
+
+.css-report-019 {
+    @apply  w-[25px] h-[10px] border-1
+}
+
+.css-report-020 {
+    @apply mt-0
+}
+
+.css-report-021 {
+    @apply px-4 text-nowrap border-l-1
+    md:px-8
+    lg:px-8
+}
+
+.css-report-022 {
+    @apply bg-green-400 border-l-1 py-2
+}
