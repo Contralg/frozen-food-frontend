@@ -63,7 +63,7 @@ const AuthProvider = ({ children } : { children : ReactNode}) => {
     const [newProductId, setProductId] = useState<AuthContextType["newProductId"]>('')
     const getProductsData = async() => {
         try {
-            const response  = await fetch('http://localhost:3001/api/products', {
+            const response  = await fetch('https://portofolio.lakonio.com/backend/portofolio2/api/products', {
                 method: 'GET',
                 mode: 'cors',
                 credentials: 'include',
@@ -87,7 +87,7 @@ const AuthProvider = ({ children } : { children : ReactNode}) => {
     const [newCategoryId, setNewCategoryId] = useState<AuthContextType["newCategoryId"]>('')
     const getCategory = async() => {
         try {
-            const response  = await fetch('http://localhost:3001/api/category', {
+            const response  = await fetch('https://portofolio.lakonio.com/backend/portofolio2/api/category', {
                 method: 'GET',
                 mode: 'cors',
                 credentials: 'include',
@@ -116,7 +116,7 @@ const AuthProvider = ({ children } : { children : ReactNode}) => {
 
     const addCategory = async (formData: any) => {
         try {
-            await fetch('http://localhost:3001/api/category', {
+            await fetch('https://portofolio.lakonio.com/backend/portofolio2/api/category', {
                 method  : 'POST',
                 mode    : 'cors',
                 credentials: 'include',
@@ -130,7 +130,7 @@ const AuthProvider = ({ children } : { children : ReactNode}) => {
 
     const addProduct = async (formData: any) => {
         try {
-            await fetch('http://localhost:3001/api/products', {
+            await fetch('https://portofolio.lakonio.com/backend/portofolio2/api/products', {
                 method  : 'POST',
                 mode    : 'cors',
                 credentials: 'include',
@@ -227,7 +227,7 @@ const AuthProvider = ({ children } : { children : ReactNode}) => {
     const [newTransactionId, setNewTransactionId] = useState<AuthContextType['newTransactionId']>('TRNS-00001')
     const getTransactionId = async() => {
         try {
-            const response = await fetch('http://localhost:3001/api/transaction', {
+            const response = await fetch('https://portofolio.lakonio.com/backend/portofolio2/api/transaction', {
                 method: 'GET',
                 mode: 'cors',
                 credentials: 'include',
@@ -250,7 +250,7 @@ const AuthProvider = ({ children } : { children : ReactNode}) => {
     
     const addTransaction = async (value: Object) => {
         try {
-            const response = await fetch('http://localhost:3001/api/transaction', {
+            const response = await fetch('https://portofolio.lakonio.com/backend/portofolio2/api/transaction', {
                 method  : 'POST',
                 mode    : 'cors',
                 credentials: 'include',
@@ -299,7 +299,7 @@ const AuthProvider = ({ children } : { children : ReactNode}) => {
     const [dashboardData, setDashboardData] = useState<AuthContextType['dashboardData']>()
     const getDashboard = async() => {
         try {
-            const response = await fetch('http://localhost:3001/api/transaction', {
+            const response = await fetch('https://portofolio.lakonio.com/backend/portofolio2/api/transaction', {
                 method: 'GET',
                 mode: 'cors',
                 credentials: 'include',
@@ -377,7 +377,7 @@ const AuthProvider = ({ children } : { children : ReactNode}) => {
     }
     const updateProduct = async (formData: any) => {
         try {
-            const response = await fetch('http://localhost:3001/api/products', {
+            const response = await fetch('https://portofolio.lakonio.com/backend/portofolio2/api/products', {
                 method  : 'PUT',
                 mode    : 'cors',
                 credentials: 'include',
@@ -422,7 +422,7 @@ const AuthProvider = ({ children } : { children : ReactNode}) => {
     const deleteProduct = async (prod_id: string) => {
         const data = {product_id: prod_id}
         try {
-            const response = await fetch('http://localhost:3001/api/products', {
+            const response = await fetch('https://portofolio.lakonio.com/backend/portofolio2/api/products', {
                 method  : 'DELETE',
                 mode    : 'cors',
                 credentials: 'include',
@@ -454,7 +454,7 @@ const AuthProvider = ({ children } : { children : ReactNode}) => {
     const [reportData, setReportData] = useState<AuthContextType['reportData']>({sales_trend: '', sales_category: '', most_buy_product: '', hourly_data: ''})
     const getReport = async(sortValue: number, category_data: any, product_data: any) => {
         try {
-            const response = await fetch('http://localhost:3001/api/transaction', {
+            const response = await fetch('https://portofolio.lakonio.com/backend/portofolio2/api/transaction', {
                 method: 'GET',
                 mode: 'cors',
                 credentials: 'include',
@@ -615,7 +615,7 @@ const AuthProvider = ({ children } : { children : ReactNode}) => {
     const [transactionsData, setTransactionsData] = useState<AuthContextType['transactionsData']>([])
     const getTransactionsData = async() => {
         try {
-             const response = await fetch('http://localhost:3001/api/transaction', {
+             const response = await fetch('https://portofolio.lakonio.com/backend/portofolio2/api/transaction', {
                 method: 'GET',
                 mode: 'cors',
                 credentials: 'include',
@@ -638,7 +638,7 @@ const AuthProvider = ({ children } : { children : ReactNode}) => {
 
     const useDefaultData = async() => {
         try {
-             await fetch('http://localhost:3001/api/default', {
+             await fetch('https://portofolio.lakonio.com/backend/portofolio2/api/default', {
                 method: 'POST',
                 mode: 'cors',
                 credentials: 'include',
@@ -654,7 +654,7 @@ const AuthProvider = ({ children } : { children : ReactNode}) => {
 
     const resetAllData = async() => {
         try {
-             await fetch('http://localhost:3001/api/reset', {
+             await fetch('https://portofolio.lakonio.com/backend/portofolio2/api/reset', {
                 method: 'POST',
                 mode: 'cors',
                 credentials: 'include',
